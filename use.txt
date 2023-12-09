@@ -1,0 +1,78 @@
+npm --version    :   10.2.3
+
+node --version   :   v20.10.0
+
+ npm i lodash 
+ npm --y
+ npm init
+git init
+
+
+
+
+
+
+
+
+/////////////////
+
+const amount =18
+
+if (amount < 10){
+    console.log('small number') ;
+}
+
+else {
+    console.log('large number') ;
+}
+
+console.log("Hey it's my first Node App !!!")
+
+////////
+
+console.log(__dirname);
+setInterval(() => {
+    console.log('hello world');
+}, 1000);
+
+
+////////
+
+// Modules 
+const john = 'john';
+const peter = 'peter';
+
+const sayhi = (name) => {
+    console.log(`Hello there ${name}`);
+}
+
+sayhi('susan');
+sayhi(john);
+sayhi(peter);
+
+////////
+
+console.log(`The System Uptime is ${os.uptime()} seconds`) ;
+
+
+////////
+
+const http = require('http');
+
+const server = http.createServer((req,res) =>{
+res.write('Welcome to our home page');
+res.end()
+})
+
+server.listen(5000)
+
+
+////////
+
+
+
+
+
+
+
+
